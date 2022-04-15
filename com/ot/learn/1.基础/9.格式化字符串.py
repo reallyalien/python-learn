@@ -1,4 +1,3 @@
-
 # print() 函数使用以%开头的转换说明符对各种类型的数据进行格式化输出，具体请看下表。
 '''
 %d、%i	转换为带符号的十进制整数
@@ -20,3 +19,8 @@ name = "C语言中文网"
 age = 8
 url = "http://c.biancheng.net/"
 print("%s已经%d岁了，它的网址是%s。" % (name, age, url))
+
+str1 = 'hello'
+
+print(repr(str1))
+print(str(str1))

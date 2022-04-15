@@ -17,9 +17,11 @@ print("b3: ", b3)
 print("b3-type: ", type(b3))
 print(b3[2])
 print(type(b3[3]))
-print(b3[7:22])
+print(b3[7:22] == b'c.biancheng.net')
 
+print('----------------------------------------------------')
 import pickle
+
 # 为 bytes() 方法指定字符集
 b4 = bytes('C语言中文网8岁了', 'UTF-8')
 print("b4: ", b4)

@@ -68,5 +68,5 @@ print(a)
 a.popitem()
 print(a)
 
-a.setdefault("数学")
+a.setdefault("数学1")
 print(a)
